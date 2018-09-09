@@ -57,7 +57,7 @@ const Copyright = styled.div`
 
 const Footer = ({data, children}) => (
     <FooterGroup>
-      <Text>Tweet “Prototype and build apps with React and Swift. New courses by @MengTo”</Text>
+      <Text>Tweet “Prototype and build apps with React and Swift.”</Text>
       <Button>Tweet</Button>
       <LinkGroup>{data.allContentfulLink.edges.map((edge, index)=> (
         <a href={edge.node.url} key={index}>{edge.node.title}</a>
